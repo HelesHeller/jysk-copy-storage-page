@@ -11,7 +11,7 @@ const CategoryItem = ({ name, image, path }) => (
     </div>
 );
 
-// Добавляем валидацию пропсов
+
 CategoryItem.propTypes = {
     name: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
